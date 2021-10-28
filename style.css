@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+  
 
 #search-box{
     width: 100%;
@@ -24,7 +29,8 @@
     border-radius: 20px;
 }
 #submit:hover{
-    background-color: tomato;
+    background-color: rgb(5, 200, 200);
+    background-image: "1.jpg";
 }
 
 
@@ -37,7 +43,7 @@
     width: 100%;
     /* height: 300px; */ 
     margin-bottom: 10px;
-    background: tomato;
+    background: rgb(185, 159, 170);
     display: inline-block; /* 컬럼 짤림 방지*/
 }
 
